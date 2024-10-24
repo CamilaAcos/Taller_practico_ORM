@@ -1,0 +1,25 @@
+{
+  "name": "taller_practico_orm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "$env:NODE_ENV=development && nodemon -e ts,json --exec 'ts-node index.ts'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "class-validator": "^0.14.1",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/config": "^3.3.5",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.9"
+  }
+}
